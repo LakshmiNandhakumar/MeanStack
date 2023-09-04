@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap');
+
+.page-header{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form-group{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;   
+}
+
+label{
+    font-weight: bold;
+}
+
+#btn1{
+    margin-left: 60px;
+}
+
+.messages{
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 350px;
+}
+
+table{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 70px;
+    width: 50% !important;
+    margin-left: 350px;
+}
+
+#profile{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+svg{
+    size: 300px;
+}
+
+#profile:hover{
+    color:blue;
+}
+
+.slide{
+
+    filter: brightness(79%);
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+
+}
+
+section{
+
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carousel-caption{
+    
+    
+    text-shadow: 0dvb;
+    color: white;
+    margin: 200px 40px !important;
+
+}
+
+.carousel-caption h1{
+
+    font-size: 70px;
+    font-weight: bold;
+
+}
+
+.carousel-caption p{
+
+    font-size: 18px !important;
+    font-weight: bold;
+
+}
+
+
+.carousel-caption .input-group{
+   
+        width: 40%;
+        height: 45px;
+        margin-left: 250px !important;
+       
+    }
+
+.signin{
+
+    background-color: green !important;
+    color: white !important;
+   
+}
+
+.input-group input{
+
+    font-weight: 50px;
+}
+
+#about{
+   
+    background-color: #ede2c5;
+    
+}
+
+#about img{
+    border-radius: 100px ;
+    width:400px;
+    height: 400px;
+    margin: 20px 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#about h1{
+
+    font-weight: bold;
+    color: #B46060; 
+    font-size: 35px;
+    text-shadow: 2px 2px;
+    font-family: 'Bitter', serif;
+}
+
+
+
+#about p{
+
+    font-style: normal;
+    color: black;
+    font-family: 'Satisfy', cursive;
+    font-size: larger;
+}
+
+@media only screen and (max-width: 564px) {
+    #about img{
+        border-radius: 90px ;
+        width:300px;
+        height: 300px;
+        margin: 10px 50px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+    #about h1{
+
+        font-weight: bold;
+        color: #B46060; 
+        font-size: 35px;
+        text-shadow: 2px 2px;
+        font-family: 'Bitter', serif;
+    }
+    
+}
+
+#icon{
+    height: 20px;
+    margin-top: 3px;
+}
+
+#discover{
+    
+    background-color: white;
+}
+
+#discover h1{
+
+    font-weight: bolder;
+    font-size: 50px;
+    margin-top: 10px !important;
+    text-shadow: 1px 1px;
+}
+
+#discover img{
+
+    width:250px;
+    height: 300px;
+    padding-top: 20px;
+}
+
+.card{
+
+    width: 300px;
+    height: 400px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin:20px 60px;
+    margin-top: 40px !important;
+}
